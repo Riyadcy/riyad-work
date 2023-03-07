@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Personal Portfolio - Bootstrap 5</title>
+  <title>Riyad Chowdhury</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,10 +26,10 @@
       </div>
 
       <div class="dropdown">
-        <button class="btn btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-danger px-3" type="button" data-bs-toggle="dropdown" id="dropdownMenuButton" aria-expanded="false">
           <i class="fas fa-bars"></i>
         </button>
-        <ul class="dropdown-menu dropdown-menu-end">
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="#home">Home</a></li>
           <li><a class="dropdown-item" href="#about">About</a></li>
           <li><a class="dropdown-item" href="#services">Services</a></li>
@@ -46,7 +46,7 @@
     <div class="container-lg">
       <div class="row min-vh-100 align-items-center align-content-center ">
 
-        <div class="col-md-4">
+        <div class="col-md-4 mt-5 mt-md-0"> <!--When screen less than md, mt becomes 5-->
           <div class="justify-content-center">
             <img src="img/1.png" class="img-fluid" alt="Riyad's Image">
           </div>
@@ -179,11 +179,11 @@
         </div>
       </div>
   
-      <div class="row text-center ">
-        <div class="col-lg-4 col-md-6 my-2 ">
+      <div class="row text-center img-fluid">
+        <div class="col-lg-4 col-md-6 my-2">
           <div class="card-service shadow-sm p-4 bg-white rounded">
               <img class="card-img-top" src="./img/service1.png" alt="Card image cap">
-              <i class="fas fa-code text-danger fs-3"></i>
+              <i class="fas fa-code text-danger fs-3 mt-3"></i>
               <h3 class="card-title my-3 fs-3">Web Development</h3>
               <p class="service-text text-muted">Proficient in front-end technologies such as HTML, CSS, and JavaScript. Creating visually appealing dynamic and responsive user interface.       
               </p>
@@ -193,7 +193,7 @@
         <div class="col-lg-4 col-md-6 my-2">
           <div class="card-service shadow-sm p-4 bg-white rounded">
               <img class="card-img-top" src="./img/service1.png" alt="Card image cap"> 
-              <i class="fas fa-bug text-danger fs-3"></i>
+              <i class="fas fa-bug text-danger fs-3 mt-3"></i>
               <h3 class="card-title my-3 fs-3">Debugging</h3>
               <p class="service-text">Experienced in debugging techniques and tools to identify and fix errors in code, ensuring a smooth and efficient website performance.
               </p>
@@ -203,7 +203,7 @@
         <div class="col-lg-4 col-md-6 my-2">
           <div class="card-service shadow-sm p-4 bg-white rounded">
               <img class="card-img-top" src="./img/service1.png" alt="Card image cap">
-              <i class="fas fa-network-wired text-danger fs-3"></i>
+              <i class="fas fa-network-wired text-danger fs-3 mt-3"></i>
               <h3 class="card-title my-3 fs-3">Networking</h3>
               <p class="service-text">Skilled in networking concepts and protocols to ensure efficient communication between web servers and clients.   <!--Adding different size images causing issues in layout size any way for dynamic image size-->
               </p>
@@ -269,7 +269,8 @@
   </section>
   <!--Contact section end-->
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
