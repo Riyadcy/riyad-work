@@ -1,0 +1,10 @@
+.nav-menu .dropdown-item:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 84, 84);
+    font-weight: 600;
+}
+
+h2:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 84, 84);
+}
