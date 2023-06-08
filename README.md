@@ -1,3 +1,3 @@
 # Portfolio-bootstrap
 
-https://riyadcy.github.io/Portfolio-bootstrap/
+https://riyadcy.github.io/riyad-work/
